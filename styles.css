@@ -7,3 +7,16 @@
     scroll-behavior: smooth;
 
 }
+
+:root {
+    --bg-color: #090516;
+    --second-bg-color: #081b29;
+    --text-color: #fff;
+    --second-color: #c2bfd1;
+    --main-color: #6b57ff;
+    --other-color: #b1e82d;
+
+    --h1-font: 5.5rem;
+    --h1-font: 3.6rem;
+    --p-font: 1rem;
+}
