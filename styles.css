@@ -20,3 +20,71 @@
     --h1-font: 3.6rem;
     --p-font: 1rem;
 }
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 35px 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    transition: all .50s ease;
+}
+.logo{
+    display: flex;
+    align-items: end;
+    font-size: 26px;
+    color: var(--text-color);
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo img{
+    margin-right: 12px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li{
+    display: flex;
+}
+
+.nav a{
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin: 0 20px;
+    color: var(--text-color);
+    transition: all .50s ease;
+}
+
+.nav a:hover{
+    color: var(--main-color);
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+
+.right-btn{
+    display: inline-block;
+    padding: 15px 26px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    background: var(--other-color);
+    color: var(--bg-color);
+    margin-right: 20px;
+    transition: all .50s ease;
+}
